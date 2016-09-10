@@ -21,7 +21,6 @@ on init
 	export LD_PRELOAD "/system/lib/libsamsung_symbols.so"
 
     # for backwards compatibility
-    symlink /sdcard /mnt/sdcard
     symlink /sdcard /storage/sdcard
 
 on boot
